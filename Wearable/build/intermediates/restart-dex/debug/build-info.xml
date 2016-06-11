@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="tvdpi"
+    format="7"
+    timestamp="8074206731561"
+    token="6799555293682820644" >
+
+    <task
+        name="javac"
+        duration="121" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="96" />
+    <task
+        name="verifier"
+        duration="19" />
+
+    <artifact
+        location="/home/jlopes/git/TCCWatchFace/Wearable/build/outputs/apk/Wearable-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="8074206731561" >
+        <artifact
+            location="/home/jlopes/git/TCCWatchFace/Wearable/build/outputs/apk/Wearable-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

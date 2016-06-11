@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:17:1-63:12
+	package
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:18:5-53
+	android:versionName
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:17:11-69
+	android:versionCode
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/palette-v7/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.support:wearable:2.0.0-alpha1] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/AndroidManifest.xml:4:5-6:41
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v13:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.support:wearable:2.0.0-alpha1] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/AndroidManifest.xml:4:5-6:41
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:22:9-38
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:21:9-35
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml
+uses-feature#android.hardware.type.watch
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:24:5-64
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:24:19-61
+uses-permission#com.google.android.permission.PROVIDE_BACKGROUND
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:25:5-88
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:25:22-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:26:22-65
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:27:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:28:22-76
+application
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:30:5-61:19
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/palette-v7/23.3.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.support:wearable:2.0.0-alpha1] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v13:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.support:wearable:2.0.0-alpha1] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:33:9-41
+	android:allowBackup
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:31:9-35
+	android:icon
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:32:9-45
+meta-data#com.google.android.gms.version
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:35:9-37:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:37:13-66
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:36:13-58
+uses-library#com.google.android.wearable
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:39:9-93
+	android:required
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:39:66-90
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:39:23-65
+service#com.example.android.wearable.watchface.WatchFaceService
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:41:9-60:19
+	android:label
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:43:13-45
+	android:permission
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:44:13-67
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:42:13-45
+meta-data#android.service.wallpaper
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:45:13-47:54
+	android:resource
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:47:17-51
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:46:17-57
+meta-data#com.google.android.wearable.watchface.preview
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:48:13-50:60
+	android:resource
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:50:17-57
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:49:17-77
+meta-data#com.google.android.wearable.watchface.preview_circular
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:51:13-53:69
+	android:resource
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:53:17-66
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:52:17-86
+intent-filter#android.service.wallpaper.WallpaperService+com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:55:13-59:29
+action#android.service.wallpaper.WallpaperService
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:56:17-85
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:56:25-82
+category#com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:58:17-102
+	android:name
+		ADDED from /home/jlopes/git/TCCWatchFace/Wearable/src/main/AndroidManifest.xml:58:27-99
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31

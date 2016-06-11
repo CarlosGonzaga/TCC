@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/card_background.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable/card_background.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/card_background.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable/card_background.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/close_button.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable/close_button.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/close_button.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable/close_button.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    }
+]

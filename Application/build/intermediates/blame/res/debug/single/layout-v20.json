@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/layout-v20/watch_card_content.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/layout-v20/watch_card_content.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/layout-v20/watch_card_content.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/layout-v20/watch_card_content.xml"
+    }
+]

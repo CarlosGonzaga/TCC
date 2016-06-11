@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/interpolator/open_on_phone_animation_interpolator_0.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/open_on_phone_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_2.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_2.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/interpolator/open_on_phone_animation_interpolator_0.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/open_on_phone_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_2.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_2.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/interpolator/open_on_phone_animation_interpolator_1.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/open_on_phone_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_3.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_3.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_0.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_0.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_3.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_3.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_1.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/interpolator/open_on_phone_animation_interpolator_1.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/open_on_phone_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_1.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_1.xml"
+    }
+]

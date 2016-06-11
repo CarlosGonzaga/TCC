@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/open_on_phone_animation.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/open_on_phone_animation.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/generic_confirmation.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/generic_confirmation.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/open_on_phone_animation.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/open_on_phone_animation.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/open_on_phone.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/open_on_phone.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/open_on_phone.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/open_on_phone.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/generic_confirmation_animation.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/generic_confirmation_animation.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/generic_confirmation_animation.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/generic_confirmation_animation.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/res/merged/debug/drawable-v21/generic_confirmation.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/drawable-v21/generic_confirmation.xml"
+    }
+]

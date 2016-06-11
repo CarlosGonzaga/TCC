@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/xml/watch_face.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/xml/watch_face.xml"
+    },
+    {
+        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/xml/watch_face.xml",
+        "source": "/home/jlopes/git/android-WatchFace/Wearable/src/main/res/xml/watch_face.xml"
+    }
+]
