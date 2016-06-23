@@ -147,18 +147,18 @@ public final class R {
 		public static final int open_on_phone_animation = 0x7f020034;
 	}
 	public static final class id {
-		public static final int alertTitle = 0x7f0d0027;
+		public static final int alertTitle = 0x7f0d0024;
 		public static final int all = 0x7f0d0001;
-		public static final int animatedWrapperContainer = 0x7f0d0026;
+		public static final int animatedWrapperContainer = 0x7f0d0023;
 		public static final int bottom = 0x7f0d0002;
-		public static final int buttonPanel = 0x7f0d0028;
+		public static final int buttonPanel = 0x7f0d0025;
 		public static final int center = 0x7f0d0009;
 		public static final int center_horizontal = 0x7f0d0017;
 		public static final int center_vertical = 0x7f0d0018;
 		public static final int clip_horizontal = 0x7f0d0019;
 		public static final int clip_vertical = 0x7f0d001a;
-		public static final int dismiss_overlay_button = 0x7f0d002a;
-		public static final int dismiss_overlay_explain = 0x7f0d0029;
+		public static final int dismiss_overlay_button = 0x7f0d0027;
+		public static final int dismiss_overlay_explain = 0x7f0d0026;
 		public static final int end = 0x7f0d001b;
 		public static final int fill = 0x7f0d001c;
 		public static final int fill_horizontal = 0x7f0d001d;
@@ -167,13 +167,13 @@ public final class R {
 		public static final int height = 0x7f0d0006;
 		public static final int item_touch_helper_previous_elevation = 0x7f0d0000;
 		public static final int left = 0x7f0d0003;
-		public static final int message = 0x7f0d002b;
+		public static final int message = 0x7f0d0028;
 		public static final int none = 0x7f0d0007;
-		public static final int parentPanel = 0x7f0d0025;
+		public static final int parentPanel = 0x7f0d0022;
 		public static final int right = 0x7f0d0004;
 		public static final int start = 0x7f0d001f;
-		public static final int text = 0x7f0d0035;
-		public static final int title = 0x7f0d0034;
+		public static final int text = 0x7f0d0032;
+		public static final int title = 0x7f0d0031;
 		public static final int top = 0x7f0d0005;
 		public static final int width = 0x7f0d0008;
 	}

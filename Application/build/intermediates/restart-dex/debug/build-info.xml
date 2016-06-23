@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
+    format="7"
+    timestamp="16885413014035"
+    token="-537736153086001402" >
+
+    <task
+        name="javac"
+        duration="1452" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="118" />
+    <task
+        name="verifier"
+        duration="65" />
+
+    <artifact
+        location="/home/jlopes/git/TCCWatchFace/Application/build/outputs/apk/Application-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="16885413014035" >
+        <artifact
+            location="/home/jlopes/git/TCCWatchFace/Application/build/outputs/apk/Application-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

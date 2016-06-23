@@ -1,67 +1,31 @@
 [
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/error_layout.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/error_layout.xml"
-    },
-    {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/action_drawer_item_view.xml",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/action_drawer_item_view.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/overlay_confirmation.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/overlay_confirmation.xml"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
-    },
-    {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/alert_dialog_wearable.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/alert_dialog_wearable.xml"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/wearable_drawer_view.xml",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/wearable_drawer_view.xml"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/navigation_drawer_item_view.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/navigation_drawer_item_view.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/action_drawer_item_view.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/action_drawer_item_view.xml"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/color_picker_item.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/layout/color_picker_item.xml"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/overlay_confirmation.xml",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/overlay_confirmation.xml"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/layout/wearable_drawer_view.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/layout/wearable_drawer_view.xml"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/activity_config.xml",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/layout/activity_config.xml"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/layout/error_layout.xml",

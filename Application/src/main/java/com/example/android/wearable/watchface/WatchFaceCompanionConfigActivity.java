@@ -27,27 +27,31 @@ import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.wearable.companion.WatchFaceCompanion;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
+import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.wearable.DataApi;
-import com.google.android.gms.wearable.DataEventBuffer;
+import com.google.android.gms.wearable.DataItem;
 import com.google.android.gms.wearable.DataMap;
+import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 
-public class WatchFaceCompanionConfigActivity extends Activity implements
-        DataApi.DataListener,
-        GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener {
+public class WatchFaceCompanionConfigActivity extends Activity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
+        ResultCallback<DataApi.DataItemResult> {
 
-    private static final String TAG = "WatchFaceConfig";
+    private static final String TAG = "WatchFaceTCC";
     private static final String BATTERY_KEY = "com.example.key.battery";
+    private static final String PATH_WITH_FEATURE = "/batteryPercentage";
 
     private GoogleApiClient mGoogleApiClient;
     private String mPeerId;
@@ -66,10 +70,19 @@ public class WatchFaceCompanionConfigActivity extends Activity implements
                 .addApi(Wearable.API)
                 .build();
 
-        ComponentName name = getIntent().getParcelableExtra(
-                WatchFaceCompanion.EXTRA_WATCH_FACE_COMPONENT);
-        TextView label = (TextView)findViewById(R.id.label);
-        label.setText(label.getText() + " (" + name.getClassName() + ")");
+        ComponentName name = getIntent().getParcelableExtra(WatchFaceCompanion.EXTRA_WATCH_FACE_COMPONENT);
+
+
+        Button updateButton = (Button)findViewById(R.id.update);
+        updateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Send the battery information
+                Log.i(TAG, "Battery percentage: " + mBatteryPercentage);
+                sendBatteryPercentage();
+            }
+        });
     }
 
     @Override
@@ -124,6 +137,8 @@ public class WatchFaceCompanionConfigActivity extends Activity implements
             int scale = intent.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
 
             mBatteryPercentage = (level / (float) scale) * 100;
+
+            sendBatteryPercentage();
         }
     };
 
@@ -132,17 +147,45 @@ public class WatchFaceCompanionConfigActivity extends Activity implements
     // Sends the battery percentage
     private void sendBatteryPercentage() {
 
-        PutDataMapRequest putDataMapReq = PutDataMapRequest.create("/batteryPercentage");
+        Log.i(TAG, "Sent information");
+
+        /*
+        DataMap config = new DataMap();
+        config.putFloat(BATTERY_KEY, mBatteryPercentage);
+        byte[] rawData = config.toByteArray();
+        Wearable.MessageApi.sendMessage(mGoogleApiClient, mPeerId, PATH_WITH_FEATURE, rawData);
+        */
+
+        PutDataMapRequest putDataMapReq = PutDataMapRequest.create(PATH_WITH_FEATURE);
         putDataMapReq.getDataMap().putFloat(BATTERY_KEY, mBatteryPercentage);
         PutDataRequest putDataReq = putDataMapReq.asPutDataRequest();
-        PendingResult<DataApi.DataItemResult> pendingResult =   Wearable.DataApi.putDataItem(mGoogleApiClient, putDataReq);
+        PendingResult<DataApi.DataItemResult> pendingResult =
+                Wearable.DataApi.putDataItem(mGoogleApiClient, putDataReq);
+
+
+        if (Log.isLoggable(TAG, Log.DEBUG)) {
+            Log.d(TAG, "Sent watch face config message: " + BATTERY_KEY + " -> "
+                    + Float.toHexString(mBatteryPercentage));
+        }
     }
 
     @Override
     public void onConnected(Bundle connectionHint) {
-        Log.d(TAG, "onConnected: " + connectionHint);
 
-        sendBatteryPercentage();
+        if (Log.isLoggable(TAG, Log.DEBUG)) {
+            Log.d(TAG, "onConnected: " + connectionHint);
+        }
+
+        if (mPeerId != null) {
+            Uri.Builder builder = new Uri.Builder();
+
+            sendBatteryPercentage();
+
+            Uri uri = builder.scheme("wear").path(PATH_WITH_FEATURE).authority(mPeerId).build();
+            Wearable.DataApi.getDataItem(mGoogleApiClient, uri).setResultCallback(this);
+        } else {
+            displayNoConnectedDeviceDialog();
+        }
     }
     @Override
     public void onConnectionSuspended(int cause) {
@@ -169,7 +212,16 @@ public class WatchFaceCompanionConfigActivity extends Activity implements
     }
 
     @Override
-    public void onDataChanged(DataEventBuffer dataEventBuffer) {
-
+    public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
+        if (dataItemResult.getStatus().isSuccess() && dataItemResult.getDataItem() != null) {
+            DataItem configDataItem = dataItemResult.getDataItem();
+            DataMapItem dataMapItem = DataMapItem.fromDataItem(configDataItem);
+            DataMap config = dataMapItem.getDataMap();
+            Log.i(TAG, config.toString());
+        } else {
+            // If DataItem with the current config can't be retrieved, select the default items on
+            // each picker.
+            Log.e(TAG, "no results");
+        }
     }
 }

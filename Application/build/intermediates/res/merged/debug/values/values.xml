@@ -183,7 +183,7 @@
     <string name="digital_config_hours">Hours</string>
     <string name="digital_config_minutes">Minutes</string>
     <string name="digital_config_seconds">Seconds</string>
-    <string name="digital_config_text">Digital watch face configuration</string>
+    <string name="digital_config_text">Atualizar bateria do device</string>
     <string name="dismiss_overlay_button_label">Quit</string>
     <string name="fit_config_switch_text">Google Fit</string>
     <string name="intro_message">

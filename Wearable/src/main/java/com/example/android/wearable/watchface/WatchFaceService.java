@@ -33,6 +33,8 @@ import com.google.android.gms.wearable.DataEventBuffer;
 import com.google.android.gms.wearable.DataItem;
 import com.google.android.gms.wearable.DataMap;
 import com.google.android.gms.wearable.DataMapItem;
+import com.google.android.gms.wearable.MessageApi;
+import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Wearable;
 
 import android.content.BroadcastReceiver;
@@ -81,7 +83,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class WatchFaceService extends CanvasWatchFaceService {
 
-    private static final String TAG = "StepCountWatchFace";
+    private static final String TAG = "WatchFaceTCC";
     private static final String BATTERY_KEY = "com.example.key.battery";
 
     private static final Typeface BOLD_TYPEFACE = Typeface.create(Typeface.SANS_SERIF, Typeface.BOLD);
@@ -237,9 +239,9 @@ public class WatchFaceService extends CanvasWatchFaceService {
             mGoogleApiClient = new GoogleApiClient.Builder(WatchFaceService.this)
                     .addConnectionCallbacks(this)
                     .addOnConnectionFailedListener(this)
+                    .addApi(Wearable.API)
                     .addApi(Fitness.HISTORY_API)
                     .addApi(Fitness.RECORDING_API)
-                    .addApi(Wearable.API)
                     .useDefaultAccount()
                     .build();
 
@@ -520,21 +522,21 @@ public class WatchFaceService extends CanvasWatchFaceService {
 
                 // Battery Device
 
-                if (!mBatteryDeviceReceived)
-                    Log.e(TAG,"Battery device not get");
+                if (mBatteryDeviceReceived) {
 
-                if (mBatteryDevicePercentage >= 75)
-                    mBatteryDevice.setColor(TEXT_BATTERY_HIGH);
-                else if (mBatteryDevicePercentage <= 25)
-                    mBatteryDevice.setColor(TEXT_BATTERY_LOW);
-                else
-                    mBatteryDevice.setColor(TEXT_BATTERY_MEDIUM);
+                    if (mBatteryDevicePercentage >= 75)
+                        mBatteryDevice.setColor(TEXT_BATTERY_HIGH);
+                    else if (mBatteryDevicePercentage <= 25)
+                        mBatteryDevice.setColor(TEXT_BATTERY_LOW);
+                    else
+                        mBatteryDevice.setColor(TEXT_BATTERY_MEDIUM);
 
-                canvas.drawText(
-                        getString(R.string.fit_battery, mBatteryDevicePercentage) + "% (Celular)",
-                        mXStepsOffset,
-                        mYOffset + mLineHeight * 4,
-                        mBatteryDevice);
+                    canvas.drawText(
+                            getString(R.string.fit_battery, mBatteryDevicePercentage) + "% (Celular)",
+                            mXStepsOffset,
+                            mYOffset + mLineHeight * 4,
+                            mBatteryDevice);
+                }
 
             }
         }
@@ -581,26 +583,44 @@ public class WatchFaceService extends CanvasWatchFaceService {
             }
         }
 
+
+
+        @Override
+        public void onConnectionSuspended(int cause) {
+            Log.d(TAG, "mGoogleApiAndFitCallbacks.onConnectionSuspended: " + cause);
+            Wearable.DataApi.removeListener(mGoogleApiClient, this);
+        }
+
+        @Override
+        public void onConnectionFailed(ConnectionResult result) {
+            Log.d(TAG, "mGoogleApiAndFitCallbacks.onConnectionFailed: " + result);
+            Wearable.DataApi.removeListener(mGoogleApiClient, this);
+        }
+
         @Override
         public void onConnected(Bundle connectionHint) {
-            if (Log.isLoggable(TAG, Log.DEBUG)) {
-                Log.d(TAG, "mGoogleApiAndFitCallbacks.onConnected: " + connectionHint);
-            }
-            mStepsRequested = false;
+            Log.d(TAG, "mGoogleApiAndFitCallbacks.onConnected: " + connectionHint);
+
+            //TODO: Inicialização da conexão com a DataApi
+            Wearable.DataApi.addListener(mGoogleApiClient, this);
 
             // The subscribe step covers devices that do not have Google Fit installed.
             subscribeToSteps();
             getTotalSteps();
 
-            //TODO: Inicialização da conexão com a DataApi
-            Wearable.DataApi.addListener(mGoogleApiClient, Engine.this);
+            mStepsRequested = false;
         }
 
         //TODO: Implementação da DataApi (Logo acima)
         @Override
         public void onDataChanged(DataEventBuffer dataEvents) {
 
+            Log.i(TAG, "Data changed");
+
             for (DataEvent event : dataEvents) {
+
+                Log.i(TAG, "Data event");
+
                 if (event.getType() == DataEvent.TYPE_CHANGED) {
                     // DataItem changed
                     DataItem item = event.getDataItem();
@@ -638,13 +658,6 @@ public class WatchFaceService extends CanvasWatchFaceService {
         }
 
         @Override
-        public void onConnectionSuspended(int cause) {
-            if (Log.isLoggable(TAG, Log.DEBUG)) {
-                Log.d(TAG, "mGoogleApiAndFitCallbacks.onConnectionSuspended: " + cause);
-            }
-        }
-
-        @Override
         public void onSurfaceChanged(
                 SurfaceHolder holder, int format, int width, int height) {
             if (mBackgroundScaledBitmap == null
@@ -656,12 +669,6 @@ public class WatchFaceService extends CanvasWatchFaceService {
             super.onSurfaceChanged(holder, format, width, height);
         }
 
-        @Override
-        public void onConnectionFailed(ConnectionResult result) {
-            if (Log.isLoggable(TAG, Log.DEBUG)) {
-                Log.d(TAG, "mGoogleApiAndFitCallbacks.onConnectionFailed: " + result);
-            }
-        }
 
         @Override
         public void onResult(DailyTotalResult dailyTotalResult) {

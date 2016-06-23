@@ -215,7 +215,7 @@ Wear App beforehand.
             
         
         
-    </string><string name="app_name">WatchFace</string></file><file path="/home/jlopes/git/TCCWatchFace/Application/src/main/res/values/strings.xml" qualifiers=""><string name="digital_config_hours">Hours</string><string name="ok_no_device_connected">OK</string><string name="color_navy">Navy</string><string name="digital_config_text">Digital watch face configuration</string><string name="color_gray">Gray</string><string name="color_green">Green</string><string name="opengl_config_text">OpenGL watch face configuration</string><string name="color_white">White</string><string name="digital_config_seconds">Seconds</string><string name="analog_config_text">This is the config activity for the Analog and Card Bounds watch faces</string><string-array name="color_array">
+    </string><string name="app_name">WatchFace</string></file><file path="/home/jlopes/git/TCCWatchFace/Application/src/main/res/values/strings.xml" qualifiers=""><string name="digital_config_hours">Hours</string><string name="ok_no_device_connected">OK</string><string name="color_navy">Navy</string><string name="digital_config_text">Atualizar bateria do device</string><string name="color_gray">Gray</string><string name="color_green">Green</string><string name="opengl_config_text">OpenGL watch face configuration</string><string name="color_white">White</string><string name="digital_config_seconds">Seconds</string><string name="analog_config_text">This is the config activity for the Analog and Card Bounds watch faces</string><string-array name="color_array">
         <item>@string/color_black</item>
         <item>@string/color_blue</item>
         <item>@string/color_gray</item>

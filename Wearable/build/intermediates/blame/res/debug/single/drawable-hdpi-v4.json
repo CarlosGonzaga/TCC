@@ -1,23 +1,11 @@
 [
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame_pressed.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame_pressed.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/preview_fit_circular.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/src/main/res/drawable-hdpi/preview_fit_circular.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_focused.9.png",
@@ -28,14 +16,6 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
@@ -44,28 +24,16 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_focused.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_cancel.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_cancel.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame.9.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame.9.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/preview_fit_circular.png",
@@ -74,10 +42,6 @@
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_ic_googleplayservices.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_ic_googleplayservices.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
@@ -96,12 +60,12 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_search.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-hdpi/places_ic_search.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_dark.png",
@@ -112,12 +76,20 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_sad.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_sad.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
@@ -136,12 +108,8 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
@@ -150,166 +118,6 @@
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/preview_fit.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/src/main/res/drawable-hdpi/preview_fit.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/preview_fit.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/drawable-hdpi/preview_fit.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.jpg",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/drawable-hdpi/bg.jpg"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame_pressed.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.jpg",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/src/main/res/drawable-hdpi/bg.jpg"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-hdpi/powered_by_google_light.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_clear.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-hdpi/places_ic_clear.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_cancel.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_cancel.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/card_frame.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/card_frame.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_lock_open_white_24dp.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/src/main/res/drawable-hdpi/ic_lock_open_white_24dp.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_search.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-hdpi/places_ic_search.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_cancel.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_cancel.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_search.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-hdpi/places_ic_search.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_sad.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_sad.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/src/main/res/drawable-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_ic_googleplayservices.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_ic_googleplayservices.png"
-    },
-    {
-        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_full_sad.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/drawable-hdpi/ic_full_sad.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
@@ -328,8 +136,8 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
@@ -348,24 +156,28 @@
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/preview_fit.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/drawable-hdpi/preview_fit.png"
+    },
+    {
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_full_open_on_phone.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_dark.png",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-hdpi/powered_by_google_dark.png"
+        "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.jpg",
+        "source": "/home/jlopes/git/TCCWatchFace/Wearable/src/main/res/drawable-hdpi/bg.jpg"
     },
     {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",

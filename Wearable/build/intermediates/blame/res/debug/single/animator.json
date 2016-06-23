@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/res/merged/debug/animator/circular_image_button_anim.xml",
-        "source": "/home/jlopes/git/android-WatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/animator/circular_image_button_anim.xml"
-    },
-    {
         "merged": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/res/merged/debug/animator/circular_image_button_anim.xml",
         "source": "/home/jlopes/git/TCCWatchFace/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha1/res/animator/circular_image_button_anim.xml"
     }

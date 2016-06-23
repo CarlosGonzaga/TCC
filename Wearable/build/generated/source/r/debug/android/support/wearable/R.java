@@ -18,7 +18,7 @@ public final class R {
 		public static final int circular_image_button_anim = 0x7f050000;
 	}
 	public static final class array {
-		public static final int progress_spinner_sequence = 0x7f0e0001;
+		public static final int progress_spinner_sequence = 0x7f0e0003;
 	}
 	public static final class attr {
 		public static final int action_menu = 0x7f010040;
@@ -156,14 +156,14 @@ public final class R {
 		public static final int card_frame = 0x7f020004;
 		public static final int card_frame_pressed = 0x7f020005;
 		public static final int close_button = 0x7f020006;
-		public static final int generic_confirmation = 0x7f020031;
-		public static final int generic_confirmation_animation = 0x7f020032;
-		public static final int ic_full_cancel = 0x7f020033;
-		public static final int ic_full_sad = 0x7f020034;
-		public static final int ic_more_horiz_24dp_wht = 0x7f020037;
-		public static final int ic_more_vert_24dp_wht = 0x7f020038;
-		public static final int open_on_phone = 0x7f020039;
-		public static final int open_on_phone_animation = 0x7f02003a;
+		public static final int generic_confirmation = 0x7f020033;
+		public static final int generic_confirmation_animation = 0x7f020034;
+		public static final int ic_full_cancel = 0x7f020035;
+		public static final int ic_full_sad = 0x7f020036;
+		public static final int ic_more_horiz_24dp_wht = 0x7f020039;
+		public static final int ic_more_vert_24dp_wht = 0x7f02003a;
+		public static final int open_on_phone = 0x7f02003b;
+		public static final int open_on_phone_animation = 0x7f02003c;
 	}
 	public static final class fraction {
 		public static final int action_drawer_item_bottom_padding = 0x7f0c0000;
@@ -179,19 +179,19 @@ public final class R {
 		public static final int peek_drawer_top_bottom_padding_with_chin = 0x7f0c000a;
 	}
 	public static final class id {
-		public static final int alertTitle = 0x7f10002a;
+		public static final int alertTitle = 0x7f10002d;
 		public static final int all = 0x7f100002;
-		public static final int animatedWrapperContainer = 0x7f100029;
+		public static final int animatedWrapperContainer = 0x7f10002c;
 		public static final int bottom = 0x7f100003;
 		public static final int butt = 0x7f100007;
-		public static final int buttonPanel = 0x7f10002b;
+		public static final int buttonPanel = 0x7f10002e;
 		public static final int center = 0x7f10000d;
 		public static final int center_horizontal = 0x7f10001b;
 		public static final int center_vertical = 0x7f10001c;
 		public static final int clip_horizontal = 0x7f10001d;
 		public static final int clip_vertical = 0x7f10001e;
-		public static final int dismiss_overlay_button = 0x7f10002d;
-		public static final int dismiss_overlay_explain = 0x7f10002c;
+		public static final int dismiss_overlay_button = 0x7f100032;
+		public static final int dismiss_overlay_explain = 0x7f100031;
 		public static final int end = 0x7f10001f;
 		public static final int fill = 0x7f100020;
 		public static final int fill_horizontal = 0x7f100021;
@@ -201,27 +201,27 @@ public final class R {
 		public static final int item_touch_helper_previous_elevation = 0x7f100000;
 		public static final int left = 0x7f100004;
 		public static final int linear = 0x7f100024;
-		public static final int message = 0x7f10002e;
+		public static final int message = 0x7f100033;
 		public static final int none = 0x7f10000b;
-		public static final int parentPanel = 0x7f100028;
+		public static final int parentPanel = 0x7f10002b;
 		public static final int right = 0x7f100005;
 		public static final int round = 0x7f100008;
 		public static final int semi_circular = 0x7f100025;
 		public static final int square = 0x7f100009;
 		public static final int start = 0x7f100023;
-		public static final int text = 0x7f10003d;
-		public static final int title = 0x7f10003c;
+		public static final int text = 0x7f100042;
+		public static final int title = 0x7f100041;
 		public static final int top = 0x7f100006;
 		public static final int wearable_support_action_drawer_item_icon = 0x7f100026;
 		public static final int wearable_support_action_drawer_item_text = 0x7f100027;
-		public static final int wearable_support_confirmation_overlay_image = 0x7f100032;
-		public static final int wearable_support_confirmation_overlay_message = 0x7f100033;
-		public static final int wearable_support_drawer_view_peek_container = 0x7f10003e;
-		public static final int wearable_support_drawer_view_peek_icon = 0x7f10003f;
-		public static final int wearable_support_navigation_drawer_item_icon = 0x7f10002f;
-		public static final int wearable_support_navigation_drawer_item_text = 0x7f100030;
+		public static final int wearable_support_confirmation_overlay_image = 0x7f100037;
+		public static final int wearable_support_confirmation_overlay_message = 0x7f100038;
+		public static final int wearable_support_drawer_view_peek_container = 0x7f100043;
+		public static final int wearable_support_drawer_view_peek_icon = 0x7f100044;
+		public static final int wearable_support_navigation_drawer_item_icon = 0x7f100034;
+		public static final int wearable_support_navigation_drawer_item_text = 0x7f100035;
 		public static final int wearable_support_navigation_drawer_view_pager = 0x7f100001;
-		public static final int wearable_support_overlay_confirmation = 0x7f100031;
+		public static final int wearable_support_overlay_confirmation = 0x7f100036;
 		public static final int width = 0x7f10000c;
 	}
 	public static final class integer {
@@ -240,13 +240,13 @@ public final class R {
 	}
 	public static final class layout {
 		public static final int action_drawer_item_view = 0x7f030000;
-		public static final int alert_dialog_wearable = 0x7f030001;
-		public static final int dismiss_overlay = 0x7f030002;
-		public static final int error_layout = 0x7f030003;
-		public static final int navigation_drawer_item_view = 0x7f030004;
-		public static final int overlay_confirmation = 0x7f030005;
-		public static final int watch_card_content = 0x7f03000a;
-		public static final int wearable_drawer_view = 0x7f03000b;
+		public static final int alert_dialog_wearable = 0x7f030002;
+		public static final int dismiss_overlay = 0x7f030004;
+		public static final int error_layout = 0x7f030005;
+		public static final int navigation_drawer_item_view = 0x7f030006;
+		public static final int overlay_confirmation = 0x7f030007;
+		public static final int watch_card_content = 0x7f03000c;
+		public static final int wearable_drawer_view = 0x7f03000d;
 	}
 	public static final class plurals {
 		public static final int time_difference_short_days = 0x7f090000;

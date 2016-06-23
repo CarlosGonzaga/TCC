@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:17:1-91:12
+ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:17:1-59:12
 	package
 		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:18:9-57
 	xmlns:android
@@ -52,7 +52,7 @@ ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xm
 	android:name
 		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:31:22-76
 application
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:36:5-89:19
+ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:36:5-57:19
 MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v13:23.3.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
@@ -80,22 +80,18 @@ MERGED from [com.android.support:support-v4:23.3.0] /home/jlopes/git/TCCWatchFac
 		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:38:13-49
 	android:theme
 		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:40:13-44
-activity#com.example.android.wearable.watchface.AnalogAndCardBoundsWatchFaceConfigActivity
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:42:9-51:20
+activity#com.example.android.wearable.watchface.WatchFaceCompanionConfigActivity
+ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:43:9-51:20
 	android:label
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:44:17-49
+		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:45:17-49
 	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:43:17-75
-intent-filter#android.intent.category.DEFAULT+com.example.android.wearable.watchface.CONFIG_ANALOG+com.example.android.wearable.watchface.CONFIG_CARD_BOUNDS+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:45:13-50:29
-action#com.example.android.wearable.watchface.CONFIG_ANALOG
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:46:17-95
+		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:44:17-65
+intent-filter#android.intent.category.DEFAULT+com.example.android.wearable.watchface.CONFIG_DIGITAL+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
+ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:46:13-50:29
+action#com.example.android.wearable.watchface.CONFIG_DIGITAL
+ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:47:17-96
 	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:46:25-92
-action#com.example.android.wearable.watchface.CONFIG_CARD_BOUNDS
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:47:17-100
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:47:25-97
+		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:47:25-93
 category#com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
 ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:48:17-115
 	android:name
@@ -104,52 +100,16 @@ category#android.intent.category.DEFAULT
 ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:49:17-76
 	android:name
 		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:49:27-73
-activity#com.example.android.wearable.watchface.WatchFaceCompanionConfigActivity
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:53:9-61:20
-	android:label
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:55:17-49
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:54:17-65
-intent-filter#android.intent.category.DEFAULT+com.example.android.wearable.watchface.CONFIG_DIGITAL+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:56:13-60:29
-action#com.example.android.wearable.watchface.CONFIG_DIGITAL
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:57:17-96
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:57:25-93
-activity#com.example.android.wearable.watchface.FitDistanceWatchFaceConfigActivity
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:65:9-73:20
-	android:label
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:67:13-45
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:66:13-63
-intent-filter#android.intent.category.DEFAULT+com.example.android.wearable.watchface.CONFIG_FIT_DISTANCE+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:68:13-72:29
-action#com.example.android.wearable.watchface.CONFIG_FIT_DISTANCE
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:69:17-101
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:69:25-98
-activity#com.example.android.wearable.watchface.OpenGLWatchFaceConfigActivity
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:75:9-83:20
-	android:label
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:77:17-49
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:76:17-62
-intent-filter#android.intent.category.DEFAULT+com.example.android.wearable.watchface.CONFIG_OPENGL+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:78:13-82:29
-action#com.example.android.wearable.watchface.CONFIG_OPENGL
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:79:17-95
-	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:79:25-92
 meta-data#com.google.android.gms.version
-ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:85:9-87:73
+ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:53:9-55:73
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:87:17-70
+		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:55:17-70
 	android:name
-		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:86:17-62
+		ADDED from /home/jlopes/git/TCCWatchFace/Application/src/main/AndroidManifest.xml:54:17-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:8.4.0] /home/jlopes/git/TCCWatchFace/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
 	android:name
